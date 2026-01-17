@@ -36,18 +36,20 @@ Hardened the server by killing unnecessary background processes during setup.
 Manual installation of dependencies and process management via CLI.
 
 
-![Terminal Setup](Terminal_Installation.jpg)
+![Terminal Setup](Terminal.jpg)
 
-3. The Bridge (Database Connection)
+2. The Bridge (Database Connection)
 Successful handshake between the isolated EC2 instance and the RDS backend.
 
-![Database Success](RDS_Database_Successful.jpg)
+![Database Success](Db%20Successful.jpg)
 
-5. The Target (Live Application)
-Final deployment of the PrestaShop platform ready for vulnerability scanning.
+3. The Target (Live Application)
 
-![Vulnerability Scan](Vulnerability_scanning.png)
+![Live Site](front%20page%20store.png)
 
+4. Final deployment of the PrestaShop platform ready for vulnerability scanning.
+
+![Hardening Evidence](Evidence_Hardening.png)
 
 🧠 Key Takeaways for Offensive Security
 Building this target taught me:
