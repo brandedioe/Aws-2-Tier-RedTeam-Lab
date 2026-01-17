@@ -33,14 +33,21 @@ Hardened the server by killing unnecessary background processes during setup.
 
 📸 Implementation Evidence
 1. The Setup (Linux & LAMP Stack)
-Manual installation of dependencies and process management via CLI.![Terminal_Installation](https://github.com/user-attachments/assets/5caffd90-5f11-4fe8-9cb1-ab874addd10a)
- 
+Manual installation of dependencies and process management via CLI.
 
-2. The Bridge (Database Connection)
-Successful handshake between the isolated EC2 instance and the RDS backend. ![RDS_Database_Successful](https://github.com/user-attachments/assets/41506454-cefc-4836-a50d-c2f444ea1813)
 
-3. The Target (Live Application)
-Final deployment of the PrestaShop platform ready for vulnerability scanning. <img width="946" height="464" alt="Vulnerability_scanning" src="https://github.com/user-attachments/assets/533be932-0701-40c3-892f-1c95b27d6ce1" />
+ ![Terminal_Installation](https://github.com/user-attachments/assets/0a4e6d87-c88c-4c8f-b35e-d7c67b6a6abe)
+
+
+3. The Bridge (Database Connection)
+Successful handshake between the isolated EC2 instance and the RDS backend.
+
+ ![RDS_Database_Successful](https://github.com/user-attachments/assets/41506454-cefc-4836-a50d-c2f444ea1813)
+
+5. The Target (Live Application)
+Final deployment of the PrestaShop platform ready for vulnerability scanning.
+
+ <img width="946" height="464" alt="Vulnerability_scanning" src="https://github.com/user-attachments/assets/533be932-0701-40c3-892f-1c95b27d6ce1" />
 
 
 🧠 Key Takeaways for Offensive Security
