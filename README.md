@@ -36,18 +36,16 @@ Hardened the server by killing unnecessary background processes during setup.
 Manual installation of dependencies and process management via CLI.
 
 
- ![Terminal_Installation](https://github.com/user-attachments/assets/0a4e6d87-c88c-4c8f-b35e-d7c67b6a6abe)
+![Terminal_Installation](https://github.com/user-attachments/assets/c285fb75-4dcf-4993-8ce0-0cdee6db58e3)
 
 
 3. The Bridge (Database Connection)
 Successful handshake between the isolated EC2 instance and the RDS backend.
 
- ![RDS_Database_Successful](https://github.com/user-attachments/assets/41506454-cefc-4836-a50d-c2f444ea1813)
 
 5. The Target (Live Application)
 Final deployment of the PrestaShop platform ready for vulnerability scanning.
 
- <img width="946" height="464" alt="Vulnerability_scanning" src="https://github.com/user-attachments/assets/533be932-0701-40c3-892f-1c95b27d6ce1" />
 
 
 🧠 Key Takeaways for Offensive Security
